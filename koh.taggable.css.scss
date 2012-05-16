@@ -1,0 +1,48 @@
+
+.koh_taggable {
+  display: block;
+  clear: both;
+  margin: 10px 0 10px 0;
+  
+  ul.koh-taggable-list {
+    list-style: none;
+    margin: 10px 0 0 0;
+    padding: 0;
+    
+    li {
+      width: auto;
+      display: inline-block !important;
+      padding: 2px 5px;
+      margin: 0 5px 5px 0;
+      background-color: #0088cc !important;      
+      border: 1px solid #0076b2;
+      border-radius: 3px;
+      line-height: 20px;
+      cursor: pointer;
+      color: #fff;
+      white-space: nowrap;
+      
+      
+      span {
+        color: #fff;
+      }
+      
+      a.remove-koh-taggable-item {
+        font-size: 20px;
+        color: #005681;
+        text-shadow: 1px 1px 0 #30a3de;
+        font-weight: bold;
+        margin-left: 8px;
+        line-height: 20px;
+        vertical-align: text-top;
+        
+        &:hover {
+         color: #00334d; 
+        }
+      }
+      
+    }
+    
+  }
+  
+}
